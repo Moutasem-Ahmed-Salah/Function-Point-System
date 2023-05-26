@@ -1,6 +1,7 @@
-# Java Dashboard Light and Dark mode
+#Function Point Calculator
 This dashboard build by using java swing with flatlaf look and feel
-
+each menu and submenu shows diffrent form each ae used for calculating either TCF,UFP or LOC and a brief description about function point
+ 
 ### Library use
 - flatlaf-3.1.1.jar
 - flatlaf-extras-3.1.1.jar
@@ -20,9 +21,9 @@ menu.addMenuEvent(new MenuEvent() {
     public void menuSelected(int index, int subIndex) {
         if (index == 1) {
             if (subIndex == 1) {
-                Application.mainForm.showForm(new FormInbox());
+                Application.mainForm.showForm(new UFP());
             } else if (subIndex == 2) {
-                Application.mainForm.showForm(new FormRead());
+                Application.mainForm.showForm(new TCF1());
             }
         }
     }
@@ -39,8 +40,7 @@ Modify submenu item height in class [raven.menu.MenuItem.java](https://github.co
 - [Flatlaf github](https://github.com/JFormDesigner/FlatLaf)
 - [Flatlaf doc](https://www.formdev.com/flatlaf/customizing/)
 ### Screenshot
-![2023-05-21_155517](https://github.com/DJ-Raven/java-ui-dashboard-014/assets/58245926/9ef608d5-8467-47e9-8b9c-5cd3e5c79823)
+![Screenshot (155)](https://github.com/Moutasem-Salah/Function-Point-System/assets/125928209/9be464af-5a5e-4b98-81ca-675726e6bddf)![Screenshot (156)](https://github.com/Moutasem-Salah/Function-Point-System/assets/125928209/12d09f18-ffff-4bb3-af2f-f8ee6dd2da18)
 
-![2023-05-21_155524](https://github.com/DJ-Raven/java-ui-dashboard-014/assets/58245926/26a633c8-fc1e-4036-88dc-ad3ba1ed6cac)
 
-![2023-05-21_155542](https://github.com/DJ-Raven/java-ui-dashboard-014/assets/58245926/9eebb6a5-f395-405a-a902-b7f1d2e002db)
+[![Screenshot 1](https://i.ibb.co/SxDnjkz/Screenshot-155.png)](https://ibb.co/SxDnjkz)
